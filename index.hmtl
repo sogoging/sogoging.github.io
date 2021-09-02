@@ -1,0 +1,44 @@
+<!-- 메인페이지 -->
+<!-- hmtl5 표준 기본 생성 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- // hmtl5 표준 기본생성 끝 -->
+    <title>인 공 지 능</title>
+    <!-- Styelsheet -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- // Style Sheet -->
+
+</head>
+
+<body>
+    <!-- 메뉴 -->
+    <header>
+        <div>
+            <ul class="menu">
+                <li><a href="index.html"> AI </a></li>
+                <li><a href="education.html"> 학 습 </a></li>
+                <li><a href="link.html">link</a></li>
+            </ul>
+        </div>
+    </header>   
+    <!-- //메뉴 -->
+    
+    <!-- 이미지로 뉴스 검색링크 -->
+    <div style="text-align: center;">
+        <a href="https://search.naver.com/search.naver?where=news&sm=tab_jum&query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5">
+        <!-- 웹 접근성을 위한 alt 속성 사용 -->
+        <img src="img/ai.jpg" alt="인공지능이미지">
+        <br>
+        <span class="caption">이미지를 누르면 네이버 인공지능 뉴스로 이동합니다.</span>
+        </a>
+    </div>
+    <!-- //이미지 링크 끝 -->
+    <footer>
+        <p>Copyright 2021. KJW All rights reserved. </p>
+    </footer>
+</body>
+</html>
